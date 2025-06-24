@@ -10,6 +10,10 @@
     }
     .banner-head{
         width: unset;
+        text-align: center;
+    }
+    .text-customer{
+        width: unset;
     }
     .banner-image{
         width: unset;
@@ -91,10 +95,14 @@
         width: unset;
     }
     .client-image {
-        gap:0px;
+        gap:4px;
     }
     .grade-image {
         width: unset;
+    }
+    .footer-text{
+        width: unset;
+        text-align: center;
     }
 }
 @media screen and (min-width:571px) and (max-width:768px){
@@ -103,6 +111,9 @@
         flex-direction: column;
         gap:80px;
 
+    }
+    .footer-text i{
+        left:62%;
     }
     .banner-image{
         width: unset;
@@ -159,6 +170,9 @@
     .mini-box{
         width: 20%;
         left:6%;
+    }
+     .footer-text i{
+        left:52%;
     }
      .box1-market{
         width: unset;
