@@ -81,6 +81,21 @@
     footer{
         flex-direction: column;
     }
+    .banner-head h1{
+        text-align: center;
+    }
+    .banner-head p{
+        text-align: center;
+    }
+    .text-grade{
+        width: unset;
+    }
+    .client-image {
+        gap:0px;
+    }
+    .grade-image {
+        width: unset;
+    }
 }
 @media screen and (min-width:571px) and (max-width:768px){
 
@@ -88,6 +103,9 @@
         flex-direction: column;
         gap:80px;
 
+    }
+    .banner-image{
+        width: unset;
     }
     .user-community{
         flex-direction: column;
