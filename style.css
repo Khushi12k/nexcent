@@ -21,6 +21,10 @@ header ul li a{
     text-decoration: none;
     color: grey;
 }
+.login {
+display: flex;
+align-items: center;
+}
 .login a{
     text-decoration: none;
     color: green;
@@ -78,6 +82,33 @@ button{
 .client-head p{
     color:grey;
     font-size:;
+}
+.meetbtn1{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap:4px;
+}
+.meetbtn1 a{
+    text-decoration: none;
+    color: green;
+}
+.meetbtn1 i{
+    font-size: 14px;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap:4px;
+    justify-content: center;
+}
+.btn1 a{
+    text-decoration: none;
+    color: green;
+}
+.btn1 i{
+    font-size: 14px;
 }
 .client-image{
     gap:20px;

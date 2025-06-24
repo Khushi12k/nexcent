@@ -17,6 +17,12 @@
     .community-head{
         width: unset;
     }
+    .text-rank{
+        padding-right: 10%;
+    }
+    .footer-image{
+        width: unset;
+    }
     .user-community{
         flex-direction: column;
     }
@@ -83,30 +89,43 @@
         gap:80px;
 
     }
+    .user-community{
+        flex-direction: column;
+    }
     .box-market{
         width: unset;
     }
     .mini-box{
         width: 40%;
-        left:222px;
+        left:30%;
     }
      .box1-market{
         width: unset;
     }
     .mini1-box{
         width: 40%;
-        left:222px;
+        left:30%;
     }
      .box2-market{
         width: unset;
     }
     .mini2-box{
         width: 40%;
-        left:222px;
+        left:30%;
     }
     .box-user{
         width: unset;
         margin:10px;
+    }
+    .parent-banner{
+        flex-direction: column;
+    }
+    .banner-head{
+        width: unset;
+        text-align: center;
+    }
+    header ul{
+        flex-direction: column;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
