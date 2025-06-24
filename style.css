@@ -231,6 +231,13 @@ button{
 }
 .footer-text{
     width: 34%;
+    position: relative;
+}
+.footer-text i{
+    position: absolute;
+    left: 36%;
+    top:56%;
+    font-size: 18px;
 }
 .footer-text p{
     color:grey;
@@ -448,4 +455,8 @@ footer input{
 footer i{
     color: white;
       
+}
+
+.logo-content{
+    margin-bottom: 8rem;
 }
