@@ -159,9 +159,6 @@ button{
     color:grey;
     font-size: 14px;
 }
-/* .text-rank{
-    width: 20%;
-} */
 .flex-rank{
     display: flex;
     align-items: center;
@@ -180,9 +177,6 @@ button{
 .image-rank img{
     width: 100%;
 }
-/* .main-rank{
-    width: 30%;
-} */
 .parent-rank{
     display: flex;
     align-items: center;
@@ -252,7 +246,6 @@ margin-top: 10px;
     color: rgb(2, 54, 2);
     font-size: 18px;
     text-align: center;
-    /* padding: 0px 16px; */
     
 }
 .meetbtn{
