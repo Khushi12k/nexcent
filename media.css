@@ -127,6 +127,12 @@
     header ul{
         flex-direction: column;
     }
+    .community-head{
+        width: unset;
+    }
+    .head-demo {
+        width: unset;
+    }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
      .box-market{
