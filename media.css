@@ -1,7 +1,5 @@
 @media screen and (min-width:320px) and (max-width:570px){
-    header{
-        flex-direction: column;
-    }
+  
     header ul{
         flex-direction: column;
     }
@@ -107,6 +105,15 @@
         width: unset;
         text-align: center;
     }
+    .login{
+        display: none;
+    }
+    header ul{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
 }
 @media screen and (min-width:571px) and (max-width:768px){
 
@@ -165,6 +172,53 @@
     .head-demo {
         width: unset;
     }
+    .grade-flex{
+        flex-direction: column;
+    }
+    .grade-image{
+        width: unset;
+    }
+    .text-grade {
+        width: unset;
+    }
+    .parent-rank{
+        flex-direction: column;
+    }
+    .rank-text {
+        width: unset;
+    }
+    .parent-footer{
+        flex-direction: column;
+    }
+    .footer-image{
+        width: unset;
+    }
+    .footer-text{
+        width: unset;
+        text-align: center;
+    }
+    .parent-customer{
+        flex-direction: column;
+    }
+    .customer-image{
+        width: unset;
+    }
+    .text-customer{
+        width: unset;
+    }
+    footer{
+        flex-direction: column;
+    }
+
+    .login{
+        display: none;
+    }
+    header ul{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
      .box-market{
@@ -194,4 +248,5 @@
     .parent-market{
         gap:20px;
     }
+   
 }

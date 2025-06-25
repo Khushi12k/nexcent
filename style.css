@@ -16,6 +16,7 @@ header ul{
     align-items: center;
     list-style: none;
      gap:10px; 
+     /* display: none; */
 }
 header ul li a{
     text-decoration: none;
@@ -25,6 +26,10 @@ header ul li a{
 display: flex;
 align-items: center;
 }
+.icon{
+    display: none;
+}
+
 .login a{
     text-decoration: none;
     color: green;
